@@ -159,7 +159,7 @@
     </div><!-- .container end -->
 </div><!-- .page-content.custom-img-background end -->
 
-<!-- .page-content start -->
+<!-- blog start -->
 <div class="page-content custom-background bkg-black dark mb-70" style="background-color: #fff">
     <!-- .container start -->
     <div class="container">
@@ -206,16 +206,13 @@
             <?php endforeach; ?>
         </div><!-- .container end -->
         <!-- .container-fluid start -->
-
-            <a style="justify-content: center; display: flex;margin-bottom: 50px;margin-top: -40px;" href="#" data-action="page" class="moto-widget-button-link moto-size-medium moto-link"><span
+            <a style="justify-content: center; display: flex;margin-bottom: 50px;margin-top: -40px;" href="/blog/blog" data-action="page" class="moto-widget-button-link moto-size-medium moto-link"><span
                     class="fa moto-widget-theme-icon"></span><button id="bs" style="color:#f7f7f7 !important; width: fit-content; text-align: center; background: #0084ca" type="button" class="btn btn-secondary" data-dismiss="modal">
                     Ver Mais
                 </button></a>
 
-
-
-        <!-- .container-fluid end -->
     </div>
+<!--    end blog-->
 
 
     <div class="page-content custom-img-background dark bkg-img2">

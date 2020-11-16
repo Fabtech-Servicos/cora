@@ -85,6 +85,10 @@
                                         </li>
 
                                         <li>
+                                            <a class="item-menu" href="/blog/blog">Blog</a>
+                                        </li>
+
+                                        <li>
                                             <a class="item-menu" href="/contato">CONTATO</a>
                                         </li>
 
