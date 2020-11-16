@@ -128,6 +128,14 @@ class BlogController extends AppController
     }
 
 
+    public function post($id)
+    {
+        $this->viewBuilder()->setLayout('site');
+        $post = $this->Blog->get($id);
+        $this->set('post', $post);
+    }
+
+
 
     public function beforeFilter(Event $event)
     {
