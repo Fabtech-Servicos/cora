@@ -54,7 +54,9 @@
 ]); ?>
 <script>
     ClassicEditor
-        .create(document.querySelector('#editor')).then(editor => {
+        .create(document.querySelector('#editor'),{
+            placeholder: 'Type the content here!'
+    }).then(editor => {
     }).catch(error => {
     });
 </script>

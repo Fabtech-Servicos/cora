@@ -83,6 +83,7 @@ class PagesController extends AppController
         $this->loadModel('Portfolio');
         $this->loadModel('Missions');
         $this->loadModel('Services');
+        $this->loadModel('Blog');
        // $this->loadModel('Visions');
 //        $this->loadModel('Videos');
 
@@ -95,6 +96,7 @@ class PagesController extends AppController
         $projects = $this->Projects->find('all')->order(['id DESC'])->limit(8);
         $missions = $this->Missions->find('all')->order(['id DESC'])->limit(1);
         $services = $this->Services->find('all')->order(['id DESC']);
+        $blog = $this->Blog->find('all')->order(['id DESC'])->limit(3);
       //  $visions = $this->Visions->find('all')->order(['id DESC']);
 
 
@@ -131,6 +133,7 @@ class PagesController extends AppController
         $this->set('projects', $projects);
         $this->set('missions',$missions );
         $this->set('services',$services );
+        $this->set('blog',$blog );
        // $this->set('visions',$visions );
 
 //        $this->set('videos', $videos);

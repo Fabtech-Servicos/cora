@@ -4,49 +4,49 @@
 <!--<div class="tp-banner-container fullwidthbanner">-->
 
 
-    <div id="rev-slider" class="tp-banner">
-        <ul>
-            <!-- SLIDE ONE -->
-            <?php foreach ($sliders as $key => $slider): ?>
-                <li data-index="slider<?= $key + 1 ?>" data-transition="fade" data-slotamount="5" data-masterspeed="700"
-                    data-title="winter">
-                    <!-- MAIN IMAGE -->
-                    <img src="<?= "/files/Sliders/photo/" . $slider->photo ?>" alt="slidebg3" data-bgfit="cover"
-                         data-bgposition="center center"
-                         data-bgrepeat="no-repeat">
+<div id="rev-slider" class="tp-banner">
+    <ul>
+        <!-- SLIDE ONE -->
+        <?php foreach ($sliders as $key => $slider): ?>
+            <li data-index="slider<?= $key + 1 ?>" data-transition="fade" data-slotamount="5" data-masterspeed="700"
+                data-title="winter">
+                <!-- MAIN IMAGE -->
+                <img src="<?= "/files/Sliders/photo/" . $slider->photo ?>" alt="slidebg3" data-bgfit="cover"
+                     data-bgposition="center center"
+                     data-bgrepeat="no-repeat">
 
-                    <div class="carousel-caption d-none d-md-block">
-                        <h1 style="color: #f7f7f7; font-size: 60px; "><?= $slider->description ?></h1>
-                    </div>
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 style="color: #f7f7f7; font-size: 60px; "><?= $slider->description ?></h1>
+                </div>
 
-                    <div class="tp-caption tp-big-heading tp-big-heading-bold tp-white sfb"
-                         data-x="110"
-                         data-y="310"
-                         data-speed="500"
-                         data-start="1000"
-                         data-easing="Back.easeOut"
-                         data-endspeed="500"
-                         style="z-index: 3; max-width: auto; max-height: auto; white-space: nowrap;">
-                    </div>
+                <div class="tp-caption tp-big-heading tp-big-heading-bold tp-white sfb"
+                     data-x="110"
+                     data-y="310"
+                     data-speed="500"
+                     data-start="1000"
+                     data-easing="Back.easeOut"
+                     data-endspeed="500"
+                     style="z-index: 3; max-width: auto; max-height: auto; white-space: nowrap;">
+                </div>
 
-                    <div class="tp-caption tp-small-heading sfb"
-                         data-x="360"
-                         data-y="370"
-                         data-speed="500"
-                         data-start="1100"
-                         data-easing="Back.easeOut"
-                         data-endspeed="500"
-                         style="z-index: 3; max-width: auto; max-height: auto; white-space: nowrap;"
-                    >
+                <div class="tp-caption tp-small-heading sfb"
+                     data-x="360"
+                     data-y="370"
+                     data-speed="500"
+                     data-start="1100"
+                     data-easing="Back.easeOut"
+                     data-endspeed="500"
+                     style="z-index: 3; max-width: auto; max-height: auto; white-space: nowrap;"
+                >
 
-                    </div>
-                </li>
-            <?php endforeach; ?>
-            <!-- SLIDE ONE END -->
+                </div>
+            </li>
+        <?php endforeach; ?>
+        <!-- SLIDE ONE END -->
 
-            <!-- SLIDE TWO -->
-        </ul>
-    </div><!-- .tp-banner end -->
+        <!-- SLIDE TWO -->
+    </ul>
+</div><!-- .tp-banner end -->
 </div><!-- .tp-banner-container end -->
 
 
@@ -77,10 +77,10 @@
             <div class="col-md-4 col-sm-4 col-xs-12 mb-50">
                 <div class="quote-btn">
                     <a href="/contato">
-                    <div class="btn btn-primary float-right" id="btso">
-                        <img style="height: 30px; float: right; margin-left: 10px; padding-bottom: 3px;" src="/images/svg/email.svg" class="img-responsive" alt="email icon">
-                        Entre em Contato
-                    </div>
+                        <div class="btn btn-primary float-right" id="btso">
+                            <img style="height: 30px; float: right; margin-left: 10px; padding-bottom: 3px;" src="/images/svg/email.svg" class="img-responsive" alt="email icon">
+                            Entre em Contato
+                        </div>
                     </a>
                 </div>
             </div><!-- .col-md-3 end -->
@@ -149,7 +149,7 @@
                     </div><!-- .custom-heading end -->
                     <div class="text triggerAnimation animated" data-animate='fadeInDown'
                          style="text-shadow:#000 1px -1px, #000 -1px 1px, #000 1px 1px, #000 -1px -1px">
-                     <?php echo  $mission->description ?>
+                        <?php echo  $mission->description ?>
                     </div>
                     <!--                    <p class="author-name triggerAnimation animated" data-animate='fadeInDown'>InnovarSeg</p>-->
                 </div>
@@ -164,207 +164,244 @@
     <!-- .container start -->
     <div class="container">
         <!-- .row start -->
-        <div class="row">
-            <!-- .col-md-6 start -->
-            <div class="col-md-6 col-xs-12 col-sm-6 mb-0">
-                <div class="custom-heading style-2">
-                <h1 style="color:#333; margin-top: 64px; text-align: center">Nosso Parceiro</h1>
-                </div>
+        <div class="row mb-0">
+            <!-- .col-md-12 start -->
+            <div class="col-md-12 centered mb-0">
+                <div class="custom-heading style-2" >
+                    <h2 style="font-size: 36px !important; color:#333">Blog</h2>
 
-            </div><!-- .col-md-6 end -->
-            <div class="col-md-6 col-xs-12 col-sm-6 mb-0"><img style=" display: block; margin-left: auto;margin-right: auto" src="/images/olhovivologo.png">
-            </div>
+                </div><!-- .custom-heading end -->
+            </div><!-- .col-md-12 end -->
+        </div><!-- .row end -->
     </div><!-- .container end -->
-    <!-- .container-fluid start -->
 
-    <!-- .container-fluid end -->
-</div>
-
-
-<div class="page-content custom-img-background dark bkg-img2">
     <!-- .container start -->
     <div class="container">
         <!-- .row start -->
         <div class="row">
-            <div class="col-md-6 col-sm-6">
-                <div class="feature-box style-1">
-                    <div class="feature-body">
+            <?php foreach ($blog as $post): ?>
+                <div class="col-md-4 col-sm-12">
+                    <div class="feature-box style-2">
+                        <div class="feature-body" style="background: #fff; color: #333">
+                            <div class="t">
+                                <img class="bg-all2"  style=" width: 360px !important; height: 224px !important;
+                                        object-fit: cover !important;" src="<?= "/files/Blog/photo/" . $post->photo ?>">
+                                <!--                            -moz-available firefox-->
+                            </div>
+                            <div class="post-name">
+                                <h4 style="color: #333"><?= $post->title ?></h4>
+                            </div>
+                            <div class="post-date" style="margin-bottom: 10px">
+                                <span style="font-style: italic; color: #0084ca"><?= $post->date ?> | <?= $post->signature ?></span>
+                            </div>
+                            <div class="post-body">
+                                <span class="desc-blog-front"> <?= strlen($post->description) >  90 ? substr($post->description, 0, 90) . "..." : $post->description ?></span>
+                            </div>
+                            <small style="color: #333 !important;">Continue Lendo</small>
+                            <hr>
+
+                        </div><!-- .feature-body end -->
+                    </div><!-- .feature-box-end -->
+                </div><!-- .col-md-6 end -->
+            <?php endforeach; ?>
+        </div><!-- .container end -->
+        <!-- .container-fluid start -->
+
+            <a style="justify-content: center; display: flex;margin-bottom: 50px;margin-top: -40px;" href="#" data-action="page" class="moto-widget-button-link moto-size-medium moto-link"><span
+                    class="fa moto-widget-theme-icon"></span><button id="bs" style="color:#f7f7f7 !important; width: fit-content; text-align: center; background: #0084ca" type="button" class="btn btn-secondary" data-dismiss="modal">
+                    Ver Mais
+                </button></a>
+
+
+
+        <!-- .container-fluid end -->
+    </div>
+
+
+    <div class="page-content custom-img-background dark bkg-img2">
+        <!-- .container start -->
+        <div class="container">
+            <!-- .row start -->
+            <div class="row">
+                <div class="col-md-6 col-sm-6">
+                    <div class="feature-box style-1">
+                        <div class="feature-body">
                                 <span class="icon-container triggerAnimation animated" data-animate='zoomIn'>
                                     <img src="/images/svg/camera2.png" class="img-responsive" alt="painting icon"/>
                                 </span>
-                        <div class="custom-heading">
-                            <a href="/servicos">
-                                <h4>Conheça nossos serviços</h4>
-                            </a>
-                        </div><!-- .custom-heading end -->
+                            <div class="custom-heading">
+                                <a href="/servicos">
+                                    <h4>Conheça nossos serviços</h4>
+                                </a>
+                            </div><!-- .custom-heading end -->
 
-                        <p style="color: #f7f7f7">
-                            Clique aqui e conheça nossor serviços
-                        </p>
+                            <p style="color: #f7f7f7">
+                                Clique aqui e conheça nossor serviços
+                            </p>
 
-                    </div><!-- .feature-body end -->
-                </div><!-- .feature-box-end -->
-            </div><!-- .col-md-4 end -->
+                        </div><!-- .feature-body end -->
+                    </div><!-- .feature-box-end -->
+                </div><!-- .col-md-4 end -->
 
-            <div class="col-md-6 col-sm-6" id="ctc">
-                <div class="feature-box style-1">
-                    <div class="feature-body">
+                <div class="col-md-6 col-sm-6" id="ctc">
+                    <div class="feature-box style-1">
+                        <div class="feature-body">
                                 <span class="icon-container triggerAnimation animated" data-animate='zoomIn'>
                                     <img src="/images/svg/email.svg" class="img-responsive" alt="email icon"/>
                                 </span>
-                        <div class="custom-heading">
-                            <a href="/contato">
-                                <h4>Entre em contato</h4>
-                            </a>
-                        </div><!-- .custom-heading end -->
+                            <div class="custom-heading">
+                                <a href="/contato">
+                                    <h4>Entre em contato</h4>
+                                </a>
+                            </div><!-- .custom-heading end -->
 
-                        <p style="color: #f7f7f7">
-                            Se você tiver alguma dúvida, entre em contato conosco.
-                        </p>
+                            <p style="color: #f7f7f7">
+                                Se você tiver alguma dúvida, entre em contato conosco.
+                            </p>
 
-                    </div><!-- .feature-body end -->
-                </div><!-- .feature-box-end -->
-            </div><!-- .col-md-4 end -->
+                        </div><!-- .feature-body end -->
+                    </div><!-- .feature-box-end -->
+                </div><!-- .col-md-4 end -->
 
-        </div><!-- .row end -->
-    </div><!-- .container end -->
-</div>
-<div class="page-content custom-background bkg-black dark mb-70" style="background-color: #fff !important;  ">
-    <!-- .container start -->
+            </div><!-- .row end -->
+        </div><!-- .container end -->
+    </div>
+    <div class="page-content custom-background bkg-black dark mb-70" style="background-color: #fff !important;  ">
+        <!-- .container start -->
 
 
-    <!-- Instagram Início -->
-    <div class="instagram-wrapper">
-        <div class="instagramArrows">
-            <span onclick="slideInsta('right')"></span>
-            <span onclick="slideInsta('left')"></span>
-        </div>
-        <div class="instagram-photos">
-            <p class="name-insta" style="color:#038CD4;margin-left:20px; font-family: myriad !important;">Siga-nos
-                no<br><i style="color:#F98E35;margin-left:20px;
+        <!-- Instagram Início -->
+        <div class="instagram-wrapper">
+            <div class="instagramArrows">
+                <span onclick="slideInsta('right')"></span>
+                <span onclick="slideInsta('left')"></span>
+            </div>
+            <div class="instagram-photos">
+                <p class="name-insta" style="color:#038CD4;margin-left:20px; font-family: myriad !important;">Siga-nos
+                    no<br><i style="color:#F98E35;margin-left:20px;
 font-family: myriad !important;"> Instagram</i></p>
 
-            <div>
-                <div class="instImg"></div>
-                <a href="#" class="instImgInfo" target="_blank">
-                    <div class="fbjs">
-                        <div class="instLike">
-                            <span></span>
-                            <p></p>
+                <div>
+                    <div class="instImg"></div>
+                    <a href="#" class="instImgInfo" target="_blank">
+                        <div class="fbjs">
+                            <div class="instLike">
+                                <span></span>
+                                <p></p>
+                            </div>
+                            <div class="instComm">
+                                <span></span>
+                                <p></p>
+                            </div>
                         </div>
-                        <div class="instComm">
-                            <span></span>
-                            <p></p>
-                        </div>
-                    </div>
-                </a>
-            </div>
+                    </a>
+                </div>
 
-            <div>
-                <div class="instImg"></div>
-                <a href="#" class="instImgInfo" target="_blank">
-                    <div>
-                        <div class="instLike">
-                            <span></span>
-                            <p></p>
+                <div>
+                    <div class="instImg"></div>
+                    <a href="#" class="instImgInfo" target="_blank">
+                        <div>
+                            <div class="instLike">
+                                <span></span>
+                                <p></p>
+                            </div>
+                            <div class="instComm fbox">
+                                <span></span>
+                                <p></p>
+                            </div>
                         </div>
-                        <div class="instComm fbox">
-                            <span></span>
-                            <p></p>
-                        </div>
-                    </div>
-                </a>
-            </div>
+                    </a>
+                </div>
 
-            <div>
-                <div class="instImg"></div>
-                <a href="#" class="instImgInfo" target="_blank">
-                    <div class="fbjs">
-                        <div class="instLike">
-                            <span></span>
-                            <p></p>
+                <div>
+                    <div class="instImg"></div>
+                    <a href="#" class="instImgInfo" target="_blank">
+                        <div class="fbjs">
+                            <div class="instLike">
+                                <span></span>
+                                <p></p>
+                            </div>
+                            <div class="instComm fbox">
+                                <span></span>
+                                <p></p>
+                            </div>
                         </div>
-                        <div class="instComm fbox">
-                            <span></span>
-                            <p></p>
-                        </div>
-                    </div>
-                </a>
-            </div>
+                    </a>
+                </div>
 
-            <div>
-                <div class="instImg"></div>
-                <a href="#" class="instImgInfo" target="_blank">
-                    <div class="fbjs">
-                        <div class="instLike">
-                            <span></span>
-                            <p></p>
+                <div>
+                    <div class="instImg"></div>
+                    <a href="#" class="instImgInfo" target="_blank">
+                        <div class="fbjs">
+                            <div class="instLike">
+                                <span></span>
+                                <p></p>
+                            </div>
+                            <div class="instComm fbox">
+                                <span></span>
+                                <p></p>
+                            </div>
                         </div>
-                        <div class="instComm fbox">
-                            <span></span>
-                            <p></p>
-                        </div>
-                    </div>
-                </a>
-            </div>
+                    </a>
+                </div>
 
-            <div>
-                <div class="instImg"></div>
-                <a href="#" class="instImgInfo" target="_blank">
-                    <div class="fbjs">
-                        <div class="instLike">
-                            <span></span>
-                            <p></p>
+                <div>
+                    <div class="instImg"></div>
+                    <a href="#" class="instImgInfo" target="_blank">
+                        <div class="fbjs">
+                            <div class="instLike">
+                                <span></span>
+                                <p></p>
+                            </div>
+                            <div class="instComm fbox">
+                                <span></span>
+                                <p></p>
+                            </div>
                         </div>
-                        <div class="instComm fbox">
-                            <span></span>
-                            <p></p>
-                        </div>
-                    </div>
-                </a>
-            </div>
+                    </a>
+                </div>
 
-            <div>
-                <div class="instImg"></div>
-                <a href="#" class="instImgInfo" target="_blank">
-                    <div class="fbjs">
-                        <div class="instLike">
-                            <span></span>
-                            <p></p>
+                <div>
+                    <div class="instImg"></div>
+                    <a href="#" class="instImgInfo" target="_blank">
+                        <div class="fbjs">
+                            <div class="instLike">
+                                <span></span>
+                                <p></p>
+                            </div>
+                            <div class="instComm fbox">
+                                <span></span>
+                                <p></p>
+                            </div>
                         </div>
-                        <div class="instComm fbox">
-                            <span></span>
-                            <p></p>
-                        </div>
-                    </div>
-                </a>
-            </div>
+                    </a>
+                </div>
 
-            <div>
-                <div class="instImg"></div>
-                <a href="#" class="instImgInfo" target="_blank">
-                    <div class="fbjs">
-                        <div class="instLike">
-                            <span></span>
-                            <p></p>
+                <div>
+                    <div class="instImg"></div>
+                    <a href="#" class="instImgInfo" target="_blank">
+                        <div class="fbjs">
+                            <div class="instLike">
+                                <span></span>
+                                <p></p>
+                            </div>
+                            <div class="instComm fbox">
+                                <span></span>
+                                <p></p>
+                            </div>
                         </div>
-                        <div class="instComm fbox">
-                            <span></span>
-                            <p></p>
-                        </div>
-                    </div>
-                </a>
-            </div>
+                    </a>
+                </div>
 
+            </div>
         </div>
+        <!-- Fim Instagram -->
+
+
+        <!-- .container-fluid start -->
+
+        <!-- .container-fluid end -->
     </div>
-    <!-- Fim Instagram -->
-
-
-    <!-- .container-fluid start -->
-
-    <!-- .container-fluid end -->
-</div>
 </div>
 
 
@@ -384,124 +421,124 @@ font-family: myriad !important;"> Instagram</i></p>
 
 
 
-        /******************************** Instagram Script ********************************/
+    /******************************** Instagram Script ********************************/
 
 
-        /******************************** Instagram Script ********************************/
-        if (document.querySelector('.instagram-wrapper')) {
+    /******************************** Instagram Script ********************************/
+    if (document.querySelector('.instagram-wrapper')) {
 
-            const url = 'https://www.instagram.com/innovarseg/'; // the Instagram account
+        const url = 'https://www.instagram.com/innovarseg/'; // the Instagram account
 
-            const Http = new XMLHttpRequest();
-            Http.open("GET", url);
-            Http.send();
-            setTimeout(function () {
-                if (Http.responseText) {
-                    var instTextObj = Http.responseText.match(/<script type="text\/javascript">window\._sharedData = (.*)<\/script>/)[0].slice(52, -10);
-                    var instJSON = JSON.parse(instTextObj);
-                    var instItemsJSON = instJSON['entry_data']['ProfilePage'][0]['graphql']['user']['edge_owner_to_timeline_media']['edges'];
-                    var instagramDivs = document.querySelectorAll('.instagram-photos > div');
-                    for (var ins = 0; ins < instagramDivs.length; ins++) {
-                        instagramDivs[ins].querySelector('.instImg').style.backgroundImage = "url('" + instItemsJSON[ins]['node']['display_url'] + "')";
-                        instagramDivs[ins].querySelector('a').href = "https://www.instagram.com/p/" + instItemsJSON[ins]['node']['shortcode'];
-                        instagramDivs[ins].querySelector('.instLike p').innerText = instItemsJSON[ins]['node']['edge_liked_by']['count'];
-                        instagramDivs[ins].querySelector('.instComm p').innerText = instItemsJSON[ins]['node']['edge_media_to_comment']['count'];
-                    }
-                } else {
-                    document.querySelector('.instagram-wrapper').style.display = 'none';
-                }
-
-            }, 2500);
-        }
-
-        // if (window.innerWidth < 992) {
-        //   document.querySelector('.instagram-wrapper').classList.add('InstaSlideEfx');
-        // }
-
-        var positionInstaSlide = 0;
-
-        function slideInsta(direction) {
-            if (direction == 'left' && positionInstaSlide != -3) {
-                positionInstaSlide--;
-                changeInstaPos();
-            } else if (direction == 'right' && positionInstaSlide != 3) {
-                positionInstaSlide++;
-                changeInstaPos();
-            }
-
-            function changeInstaPos() {
-                document.querySelector(".instagram-photos").style.transform = "translate(" + ((positionInstaSlide * 282)) + "px)";
-            }
-
-            if (positionInstaSlide == -3) {
-                document.querySelector('.instagramArrows span:nth-of-type(2)').style.opacity = "0";
-            } else if (positionInstaSlide == 3) {
-                document.querySelector('.instagramArrows span:nth-of-type(1)').style.opacity = "0";
-            } else {
-                document.querySelector('.instagramArrows span:nth-of-type(1)').style.opacity = "1";
-                document.querySelector('.instagramArrows span:nth-of-type(2)').style.opacity = "1";
-            }
-        }
-
-
-        document.querySelector('.instagram-photos').addEventListener("touchstart", startTouch, false);
-        document.querySelector('.instagram-photos').addEventListener("touchmove", moveTouch, false);
-
-        // Swipe Up / Down / Left / Right
-        var initialX = null;
-        var initialY = null;
-
-        function startTouch(e) {
-            initialX = e.touches[0].clientX;
-            initialY = e.touches[0].clientY;
-        };
-
-        function moveTouch(e) {
-            if (initialX === null) {
-                return;
-            }
-            if (initialY === null) {
-                return;
-            }
-
-            var currentX = e.touches[0].clientX;
-            var currentY = e.touches[0].clientY;
-
-            var diffX = initialX - currentX;
-            var diffY = initialY - currentY;
-
-            if (Math.abs(diffX) > Math.abs(diffY)) {
-                // sliding horizontally
-                if (diffX > 0) {
-                    // swiped left
-                    slideInsta('left');
-                } else {
-                    // swiped right
-                    slideInsta('right');
+        const Http = new XMLHttpRequest();
+        Http.open("GET", url);
+        Http.send();
+        setTimeout(function () {
+            if (Http.responseText) {
+                var instTextObj = Http.responseText.match(/<script type="text\/javascript">window\._sharedData = (.*)<\/script>/)[0].slice(52, -10);
+                var instJSON = JSON.parse(instTextObj);
+                var instItemsJSON = instJSON['entry_data']['ProfilePage'][0]['graphql']['user']['edge_owner_to_timeline_media']['edges'];
+                var instagramDivs = document.querySelectorAll('.instagram-photos > div');
+                for (var ins = 0; ins < instagramDivs.length; ins++) {
+                    instagramDivs[ins].querySelector('.instImg').style.backgroundImage = "url('" + instItemsJSON[ins]['node']['display_url'] + "')";
+                    instagramDivs[ins].querySelector('a').href = "https://www.instagram.com/p/" + instItemsJSON[ins]['node']['shortcode'];
+                    instagramDivs[ins].querySelector('.instLike p').innerText = instItemsJSON[ins]['node']['edge_liked_by']['count'];
+                    instagramDivs[ins].querySelector('.instComm p').innerText = instItemsJSON[ins]['node']['edge_media_to_comment']['count'];
                 }
             } else {
-                // sliding vertically
-                if (diffY > 0) {
-                    // swiped up
-                } else {
-                    // swiped down
-                }
+                document.querySelector('.instagram-wrapper').style.display = 'none';
             }
 
-            initialX = null;
-            initialY = null;
+        }, 2500);
+    }
 
-            e.preventDefault();
-        };
+    // if (window.innerWidth < 992) {
+    //   document.querySelector('.instagram-wrapper').classList.add('InstaSlideEfx');
+    // }
 
-        /******************************** Fim - Instagram Script ********************************/
+    var positionInstaSlide = 0;
 
-        /******************************** Select2 Script ********************************/
-        $(document).ready(function () {
-            $('.services').select2({
-                placeholder: "Selecione o Serviço"
-            });
+    function slideInsta(direction) {
+        if (direction == 'left' && positionInstaSlide != -3) {
+            positionInstaSlide--;
+            changeInstaPos();
+        } else if (direction == 'right' && positionInstaSlide != 3) {
+            positionInstaSlide++;
+            changeInstaPos();
+        }
+
+        function changeInstaPos() {
+            document.querySelector(".instagram-photos").style.transform = "translate(" + ((positionInstaSlide * 282)) + "px)";
+        }
+
+        if (positionInstaSlide == -3) {
+            document.querySelector('.instagramArrows span:nth-of-type(2)').style.opacity = "0";
+        } else if (positionInstaSlide == 3) {
+            document.querySelector('.instagramArrows span:nth-of-type(1)').style.opacity = "0";
+        } else {
+            document.querySelector('.instagramArrows span:nth-of-type(1)').style.opacity = "1";
+            document.querySelector('.instagramArrows span:nth-of-type(2)').style.opacity = "1";
+        }
+    }
+
+
+    document.querySelector('.instagram-photos').addEventListener("touchstart", startTouch, false);
+    document.querySelector('.instagram-photos').addEventListener("touchmove", moveTouch, false);
+
+    // Swipe Up / Down / Left / Right
+    var initialX = null;
+    var initialY = null;
+
+    function startTouch(e) {
+        initialX = e.touches[0].clientX;
+        initialY = e.touches[0].clientY;
+    };
+
+    function moveTouch(e) {
+        if (initialX === null) {
+            return;
+        }
+        if (initialY === null) {
+            return;
+        }
+
+        var currentX = e.touches[0].clientX;
+        var currentY = e.touches[0].clientY;
+
+        var diffX = initialX - currentX;
+        var diffY = initialY - currentY;
+
+        if (Math.abs(diffX) > Math.abs(diffY)) {
+            // sliding horizontally
+            if (diffX > 0) {
+                // swiped left
+                slideInsta('left');
+            } else {
+                // swiped right
+                slideInsta('right');
+            }
+        } else {
+            // sliding vertically
+            if (diffY > 0) {
+                // swiped up
+            } else {
+                // swiped down
+            }
+        }
+
+        initialX = null;
+        initialY = null;
+
+        e.preventDefault();
+    };
+
+    /******************************** Fim - Instagram Script ********************************/
+
+    /******************************** Select2 Script ********************************/
+    $(document).ready(function () {
+        $('.services').select2({
+            placeholder: "Selecione o Serviço"
         });
+    });
 
     /******************************** Fim Select2 Script ********************************/
 </script>
