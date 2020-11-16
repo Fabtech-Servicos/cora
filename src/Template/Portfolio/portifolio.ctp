@@ -25,7 +25,7 @@
                             <h4><?php echo $port->title ?></h4>
                         </div><!-- .custom-heading end -->
 
-                        <p><?= strlen($port->description) >  90 ? substr($port->description, 0, 90) . "..." : $port->description ?></p>
+                     <?= strlen($port->description) >  90 ? substr($port->description, 0, 90) . "..." : $port->description ?>
 
                     </div><!-- .feature-body end -->
                 </div><!-- .feature-box-end -->

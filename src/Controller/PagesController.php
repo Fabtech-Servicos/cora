@@ -84,12 +84,10 @@ class PagesController extends AppController
         $this->loadModel('Missions');
         $this->loadModel('Services');
         $this->loadModel('Blog');
-       // $this->loadModel('Visions');
-//        $this->loadModel('Videos');
 
 
 
-        //$about = $this->About->find('all')->first();
+
         $sliders = $this->Sliders->find('all');
         $servic = $this->Portfolio->find('all', array('limit' => 3))->order(['id' => 'desc']);
         $servico = $this->Portfolio->find('all');
@@ -97,10 +95,10 @@ class PagesController extends AppController
         $missions = $this->Missions->find('all')->order(['id DESC'])->limit(1);
         $services = $this->Services->find('all')->order(['id DESC']);
         $blog = $this->Blog->find('all')->order(['id DESC'])->limit(3);
-      //  $visions = $this->Visions->find('all')->order(['id DESC']);
 
 
-//        $videos = $this->Videos->find('all')->order(['id DESC'])->limit(1);
+
+
 
 
 
@@ -108,8 +106,6 @@ class PagesController extends AppController
             $formData = $this->request->getData();
 
             $states = isset($formData['states']) ? implode($formData['states']) : '-';
-//            var_dump($formData);
-//            die();
 
             $email = new Email('gmail');
             $email->setFrom(['henrique@fabtechinfo.com.br' => 'Contato InnovarSeg'])
@@ -126,7 +122,7 @@ class PagesController extends AppController
 
 
 
-        //$this->set('about', $about);
+
         $this->set('sliders', $sliders);
         $this->set('servic', $servic);
         $this->set('servico', $servico);
@@ -134,9 +130,7 @@ class PagesController extends AppController
         $this->set('missions',$missions );
         $this->set('services',$services );
         $this->set('blog',$blog );
-       // $this->set('visions',$visions );
 
-//        $this->set('videos', $videos);
 
 
 

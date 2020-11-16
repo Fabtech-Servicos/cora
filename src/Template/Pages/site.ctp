@@ -117,7 +117,7 @@
                                 <h4><?php echo $serv->title ?></h4>
                             </div><!-- .custom-heading end -->
 
-                            <p><?= strlen($serv->description) >  90 ? substr($serv->description, 0, 90) . "..." : $serv->description ?></p>
+                         <?= strlen($serv->description) >  90 ? substr($serv->description, 0, 90) . "..." : $serv->description ?>
 
                         </div><!-- .feature-body end -->
                     </div><!-- .feature-box-end -->
