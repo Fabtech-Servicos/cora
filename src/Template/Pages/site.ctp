@@ -197,7 +197,7 @@
                             <div class="post-body">
                                 <span class="desc-blog-front"> <?= strlen($post->description) >  90 ? substr($post->description, 0, 90) . "..." : $post->description ?></span>
                             </div>
-                            <small style="color: #333 !important;">Continue Lendo</small>
+                            <small style="color: #333 !important;"><a href="/blog/post/<?= $post->id ?>">Continue Lendo</a></small>
                             <hr>
 
                         </div><!-- .feature-body end -->

@@ -1,6 +1,5 @@
-<!-- .container start -->
+<!-- blog start -->
 <div class="container">
-    <!-- .row start -->
     <div class="row">
             <div class="col-md-12 col-sm-12">
                 <div class="feature-box style-2">
@@ -18,11 +17,9 @@
                         <div class="post-body">
                             <span class="desc-blog-front"> <?= $post->description ?></span>
                         </div>
-
-                    </div><!-- .feature-body end -->
-                </div><!-- .feature-box-end -->
-            </div><!-- .col-md-6 end -->
-    </div><!-- .container end -->
-
+                    </div>
+                </div>
+            </div>
+    </div>
 </div>
-<!--    end blog-->
+<!--  blog end -->
