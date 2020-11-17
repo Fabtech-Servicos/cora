@@ -7,7 +7,6 @@
 <!-- Content Header (Page header) -->
   <section class="content-header">
     <h1>
-      About
       <small><?php echo __('Edit'); ?></small>
     </h1>
     <ol class="breadcrumb">
@@ -32,11 +31,6 @@
                // echo $this->Form->control('modifield', ['empty' => true]);
                 echo $this->Form->control('title');
                 echo $this->Form->control('description',['id' => 'editor']);
-                echo $this->Form->control('title_vision');
-                echo $this->Form->control('vision',['id' => 'editor2']);
-                echo $this->Form->control('title_mission');
-                echo $this->Form->control('mission',['id' => 'editor3']);
-                echo $this->Form->control('photo', ['type' => 'file']);
                 //echo $this->Form->control('photo_dir');
               ?>
             </div>

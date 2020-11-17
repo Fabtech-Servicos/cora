@@ -76,8 +76,16 @@
                                             <a class="item-menu" href="/">INÍCIO</a>
                                         </li>
 
-                                        <li >
-                                            <a class="item-menu" href="/sobre/5">Sobre Nós</a>
+                                        <li>
+                                            <a class="item-menu" href="/sobre/5">O QUE FAZEMOS</a>
+                                        </li>
+
+                                        <li>
+                                            <a class="item-menu" href="/sobre/6">COMO FAZEMOS</a>
+                                        </li>
+
+                                        <li>
+                                            <a class="item-menu" href="/sobre/7">BENEFÍCIOS</a>
                                         </li>
 
                                         <li>
@@ -91,14 +99,6 @@
                                         <li>
                                             <a class="item-menu" href="/contato">CONTATO</a>
                                         </li>
-
-                                        <!--                                        <li>-->
-                                        <!--                                            <a class="item-menu"  href="/video">Videos</a>-->
-                                        <!--                                        </li>-->
-
-                                        <!--                                        <li>-->
-                                        <!--                                            <a href="http://nuvem.innovarseg.com.br/">Portal</a>-->
-                                        <!--                                        </li>-->
                                     </ul><!-- .nav.navbar-nav end -->
                                     <!-- #search start -->
                                     <!-- #search end -->

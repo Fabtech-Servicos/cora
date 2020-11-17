@@ -62,7 +62,7 @@
             <div class="col-md-4 col-sm-4 col-xs-12 mb-0" id="solicitar" >
                 <div class="quote-content">
                     <div class="text">
-                        <h3 style="text-align: left">I DADOS & INSIGHTS</h3>
+                        <h3 style="text-align: left">1 DADOS & INSIGHTS</h3>
                     </div>
                 </div>
             </div><!-- .col-md-9 end -->
@@ -122,10 +122,9 @@
                         </div><!-- .feature-body end -->
                     </div><!-- .feature-box-end -->
                     <div data-widget-id="wid_1520863172_3f9ynuv6p"
-                         class="moto-widget moto-widget-button moto-preset-default moto-align-left moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-small  "
+                         class="moto-widget moto-widget-button moto-preset-default moto-align-left moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-small"
                          data-widget="button">
-                        <a href="servico/<?= $serv->id ?>" data-action="page"
-                           class="moto-widget-button-link moto-size-medium moto-link"><span
+                        <a href="servico/<?= $serv->id ?>" data-action="page" class="moto-widget-button-link moto-size-medium moto-link"><span
                                 class="fa moto-widget-theme-icon"></span><button id="bs" style="color:#f7f7f7 !important; width: fit-content; text-align: center; background: #0084ca" type="button" class="btn btn-secondary" data-dismiss="modal">Ver Mais Detalhes
                             </button></a>
                     </div>
