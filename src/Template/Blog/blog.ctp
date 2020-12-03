@@ -22,21 +22,23 @@
                         <div class="col-md-4 col-sm-12">
                             <div class="feature-box style-2">
                                 <div class="feature-body" style="background: #fff; color: #333">
-                                    <div class="t">
-                                        <img class="bg-all2"  style=" width: 252px !important; height: 157px !important;
+                                    <a href="/post/<?= $post->id?>"><div class="t">
+                                   <img class="bg-all2"  style=" width: 252px !important; height: 157px !important;
                                         object-fit: cover !important;" src="<?= "/files/Blog/photo/" . $post->photo ?>">
                                         <!--                            -moz-available firefox-->
-                                    </div>
+                                    </div></a>
                                     <div class="post-name">
-                                        <h4><?= $post->title ?></h4>
+                                        <a href="/post/<?= $post->id?>">  <h4><?= $post->title ?></h4></a>
                                     </div>
                                     <div class="post-date" style="margin-bottom: 10px">
                                         <span><?= $post->date ?></span> | <?= $post->signature ?>
                                     </div>
                                     <div class="post-body">
-                                        <p><?= strlen($post->description) >  90 ? substr($post->description, 0, 90) . "..." : $post->description ?></p>
+                                        <a href="/post/<?= $post->id?>">
+                                            <p><?= strlen($post->description) >  90 ? substr($post->description, 0, 90) . "..." : $post->description ?></p>
+                                        </a>
                                     </div>
-                                    <small style="color: #333 !important;">Continue Lendo</small>
+                                    <a href="/post/<?= $post->id?>"><small style="color: #333 !important;">Continue Lendo</small></a>
                                     <hr>
 
                                 </div><!-- .feature-body end -->
@@ -48,14 +50,18 @@
                         <h4>Categorias</h4><hr>
                         <div class="list-group" style="border-radius: 0px !important;  -webkit-box-shadow:none !important; box-shadow: none !important;">
                             <?php foreach ($category as $post): ?>
-                            <a class="list-group-item" href="#" style=" border: none !important;"> <small class="list-group-item-heading"><?= $post->title ?></small> </a>
+                            <a class="list-group-item" href="" style=" border: none !important;"> <small class="list-group-item-heading"><?= $post->title ?></small> </a>
                             <?php endforeach; ?>
                         </div>
                         <div class="right">
                             <h4>Recentes Postagens</h4><hr>
                             <?php foreach ($recente as $post): ?>
-                            <div class="media"> <div class="media-left"> <a href="#"> <img src="<?= "/files/Blog/photo/" . $post->photo ?>" class="media-object" alt="64x64" style="width: 64px; height: 64px; object-fit: cover" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHZpZXdCb3g9IjAgMCA2NCA2NCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PCEtLQpTb3VyY2UgVVJMOiBob2xkZXIuanMvNjR4NjQKQ3JlYXRlZCB3aXRoIEhvbGRlci5qcyAyLjYuMC4KTGVhcm4gbW9yZSBhdCBodHRwOi8vaG9sZGVyanMuY29tCihjKSAyMDEyLTIwMTUgSXZhbiBNYWxvcGluc2t5IC0gaHR0cDovL2ltc2t5LmNvCi0tPjxkZWZzPjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+PCFbQ0RBVEFbI2hvbGRlcl8xNTY5MjIxZTM1NSB0ZXh0IHsgZmlsbDojQUFBQUFBO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1mYW1pbHk6QXJpYWwsIEhlbHZldGljYSwgT3BlbiBTYW5zLCBzYW5zLXNlcmlmLCBtb25vc3BhY2U7Zm9udC1zaXplOjEwcHQgfSBdXT48L3N0eWxlPjwvZGVmcz48ZyBpZD0iaG9sZGVyXzE1NjkyMjFlMzU1Ij48cmVjdCB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIGZpbGw9IiNFRUVFRUUiLz48Zz48dGV4dCB4PSIxMi41IiB5PSIzNi44Ij42NHg2NDwvdGV4dD48L2c+PC9nPjwvc3ZnPg==" data-holder-rendered="true"> </a> </div>
-                                <div class="media-body"> <h4 class="media-heading"><?= $post->title ?></h4> <?= strlen($post->description) >  50 ? substr($post->description, 0, 50) . "..." : $post->description ?></div>
+                            <div class="media"> <div class="media-left"> <a href="/post/<?= $post->id?>">
+                                        <a href="/post/<?= $post->id?>"> <img src="<?= "/files/Blog/photo/" . $post->photo ?>" class="media-object" alt="64x64" style="width: 64px; height: 64px; object-fit: cover" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHZpZXdCb3g9IjAgMCA2NCA2NCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PCEtLQpTb3VyY2UgVVJMOiBob2xkZXIuanMvNjR4NjQKQ3JlYXRlZCB3aXRoIEhvbGRlci5qcyAyLjYuMC4KTGVhcm4gbW9yZSBhdCBodHRwOi8vaG9sZGVyanMuY29tCihjKSAyMDEyLTIwMTUgSXZhbiBNYWxvcGluc2t5IC0gaHR0cDovL2ltc2t5LmNvCi0tPjxkZWZzPjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+PCFbQ0RBVEFbI2hvbGRlcl8xNTY5MjIxZTM1NSB0ZXh0IHsgZmlsbDojQUFBQUFBO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1mYW1pbHk6QXJpYWwsIEhlbHZldGljYSwgT3BlbiBTYW5zLCBzYW5zLXNlcmlmLCBtb25vc3BhY2U7Zm9udC1zaXplOjEwcHQgfSBdXT48L3N0eWxlPjwvZGVmcz48ZyBpZD0iaG9sZGVyXzE1NjkyMjFlMzU1Ij48cmVjdCB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIGZpbGw9IiNFRUVFRUUiLz48Zz48dGV4dCB4PSIxMi41IiB5PSIzNi44Ij42NHg2NDwvdGV4dD48L2c+PC9nPjwvc3ZnPg==" data-holder-rendered="true"> </a> </div>
+                                <div class="media-body"> <h4 class="media-heading"> <a href="/post/<?= $post->id?>"><?= $post->title ?></a>
+                                    </h4>
+                                    <a href="/post/<?= $post->id?>"><?= strlen($post->description) >  50 ? substr($post->description, 0, 50) . "..." : $post->description ?></a>
+                                </div>
                             </div>
                             <?php endforeach; ?>
                         </div>

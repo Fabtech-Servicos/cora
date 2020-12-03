@@ -50,14 +50,6 @@
           ClassicEditor
               .create( document.querySelector( '#editor' ) ).then( editor => {  } ).catch( error => { } );
       </script>
-      <script>
-          ClassicEditor
-              .create( document.querySelector( '#editor2' ) ).then( editor => {  } ).catch( error => { } );
-      </script>
-      <script>
-          ClassicEditor
-              .create( document.querySelector( '#editor3' ) ).then( editor => {  } ).catch( error => { } );
-      </script>
       <?php  $this->end(); ?>
   <!-- /.row -->
 </section>

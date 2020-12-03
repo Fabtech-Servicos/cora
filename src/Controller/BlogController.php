@@ -135,11 +135,9 @@ class BlogController extends AppController
         $this->set('post', $post);
     }
 
-
-
     public function beforeFilter(Event $event)
     {
-        $this->Auth->allow('blog');
+        $this->Auth->allow(['blog','post']);
     }
 
 }
