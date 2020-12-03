@@ -127,6 +127,19 @@ class BlogController extends AppController
         $this->set('recente', $recente);
     }
 
+    public function category($categories_id){
+        $this->paginate = [
+            'limit'=> 6,
+        ];
+        $this->viewBuilder()->setLayout('site');
+        $category = $this->paginate( $this->Blog->find('all')->where([ 'categories_id' => $categories_id ]) );
+        $this->loadModel('Categories');
+        $cat = $this->Categories->find('all')->order(['id DESC']);
+        $recente = $this->Blog->find('all')->order(['id DESC'])->limit(3);
+        $this->set(compact('category','cat','recente'));
+
+    }
+
 
     public function post($id)
     {

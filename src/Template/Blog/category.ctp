@@ -18,7 +18,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-9 col-md-9 col-sm-12">
-                        <?php foreach ($blog as $post): ?>
+                        <?php foreach ($category as $post): ?>
                         <div class="col-md-4 col-sm-12">
                             <div class="feature-box style-2">
                                 <div class="feature-body" style="background: #fff; color: #333">
@@ -35,7 +35,7 @@
                                     </div>
                                     <div class="post-body">
                                         <a href="/post/<?= $post->id?>">
-                                            <?= strlen($post->description) >  90 ? substr($post->description, 0, 90) . "..." : $post->description ?>
+                                            <p><?= strlen($post->description) >  90 ? substr($post->description, 0, 90) . "..." : $post->description ?></p>
                                         </a>
                                     </div>
                                     <a href="/post/<?= $post->id?>"><small style="color: #333 !important;">Continue Lendo</small></a>
@@ -49,8 +49,8 @@
                     <div class="col-lg-3  col-md-3 col-sm-12">
                         <h4>Categorias</h4><hr>
                         <div class="list-group" style="border-radius: 0px !important;  -webkit-box-shadow:none !important; box-shadow: none !important;">
-                            <?php foreach ($category as $post): ?>
-                                <a class="list-group-item" href="/categoria/<?= $post->id ?>" style=" border: none !important;"> <small class="list-group-item-heading"><?= $post->title ?></small> </a>
+                            <?php foreach ($cat as $post): ?>
+                            <a class="list-group-item" href="/categoria/<?= $post->id ?>" style=" border: none !important;"> <small class="list-group-item-heading"><?= $post->title ?></small> </a>
                             <?php endforeach; ?>
                         </div>
                         <div class="right">
