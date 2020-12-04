@@ -15,9 +15,9 @@
                      data-bgposition="center center"
                      data-bgrepeat="no-repeat">
 
-                <div class="carousel-caption d-none d-md-block">
-                    <h1 style="color: #f7f7f7; font-size: 60px; "><?= $slider->description ?></h1>
-                </div>
+<!--                <div class="carousel-caption d-none d-md-block">-->
+<!--                    <h1 style="color: #f7f7f7; font-size: 60px; ">--><?//= $slider->description ?><!--</h1>-->
+<!--                </div>-->
 
                 <div class="tp-caption tp-big-heading tp-big-heading-bold tp-white sfb"
                      data-x="110"
@@ -62,7 +62,7 @@
             <div class="col-md-4 col-sm-4 col-xs-12 mb-0" id="solicitar" >
                 <div class="quote-content">
                     <div class="text">
-                        <h3 style="text-align: left">1 DADOS & INSIGHTS</h3>
+                        <h3 style="text-align: left">DADOS & INSIGHTS</h3>
                     </div>
                 </div>
             </div><!-- .col-md-9 end -->
@@ -82,6 +82,8 @@
                             Entre em Contato
                         </div>
                     </a>
+
+<!--                    <img src="/images/animation-black-white.gif">-->
                 </div>
             </div><!-- .col-md-3 end -->
         </div><!-- .row end -->
@@ -223,7 +225,7 @@
                     <div class="feature-box style-1">
                         <div class="feature-body">
                                 <span class="icon-container triggerAnimation animated" data-animate='zoomIn'>
-                                    <img src="/images/svg/camera2.png" class="img-responsive" alt="painting icon"/>
+                                    <img style="max-width: 43px" src="/images/cora.png" class="img-responsive" alt="painting icon"/>
                                 </span>
                             <div class="custom-heading">
                                 <a href="/servicos">
@@ -264,142 +266,136 @@
     </div>
     <div class="page-content custom-background bkg-black dark mb-70" style="background-color: #fff !important;  ">
         <!-- .container start -->
-
-
         <!-- Instagram Início -->
+        <!-- .container start -->
+        <div class="container">
+            <!-- .row start -->
+            <div class="row mb-0">
+                <!-- .col-md-12 start -->
+                <div class="col-md-12 centered mb-0">
+                    <div class="custom-heading style-2" >
+                        <h2 style="font-size: 36px !important; color:#333">Siga Nosso Instagram</h2>
+
+                    </div><!-- .custom-heading end -->
+                </div><!-- .col-md-12 end -->
+            </div><!-- .row end -->
+        </div>
         <div class="instagram-wrapper">
             <div class="instagramArrows">
                 <span onclick="slideInsta('right')"></span>
                 <span onclick="slideInsta('left')"></span>
             </div>
-            <div class="instagram-photos">
-                <p class="name-insta" style="color:#038CD4;margin-left:20px; font-family: myriad !important;">Siga-nos
-                    no<br><i style="color:#F98E35;margin-left:20px;
-font-family: myriad !important;"> Instagram</i></p>
+            <div class="container">
+                <!-- .row start -->
+                <div class="row">
+                    <div class="col-md-12 col-sm-12">
+                        <div class="instagram-photos">
+                            <div>
+                                <div class="instImg"></div>
+                                <a href="#" class="instImgInfo" target="_blank">
+                                    <div class="fbjs">
+                                        <div class="instLike">
+                                            <span></span>
+                                            <p></p>
+                                        </div>
+                                        <div class="instComm">
+                                            <span></span>
+                                            <p></p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
 
-                <div>
-                    <div class="instImg"></div>
-                    <a href="#" class="instImgInfo" target="_blank">
-                        <div class="fbjs">
-                            <div class="instLike">
-                                <span></span>
-                                <p></p>
+                            <div>
+                                <div class="instImg"></div>
+                                <a href="#" class="instImgInfo" target="_blank">
+                                    <div>
+                                        <div class="instLike">
+                                            <span></span>
+                                            <p></p>
+                                        </div>
+                                        <div class="instComm fbox">
+                                            <span></span>
+                                            <p></p>
+                                        </div>
+                                    </div>
+                                </a>
                             </div>
-                            <div class="instComm">
-                                <span></span>
-                                <p></p>
+
+                            <div>
+                                <div class="instImg"></div>
+                                <a href="#" class="instImgInfo" target="_blank">
+                                    <div class="fbjs">
+                                        <div class="instLike">
+                                            <span></span>
+                                            <p></p>
+                                        </div>
+                                        <div class="instComm fbox">
+                                            <span></span>
+                                            <p></p>
+                                        </div>
+                                    </div>
+                                </a>
                             </div>
+
+                            <div>
+                                <div class="instImg"></div>
+                                <a href="#" class="instImgInfo" target="_blank">
+                                    <div class="fbjs">
+                                        <div class="instLike">
+                                            <span></span>
+                                            <p></p>
+                                        </div>
+                                        <div class="instComm fbox">
+                                            <span></span>
+                                            <p></p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div>
+                                <div class="instImg"></div>
+                                <a href="#" class="instImgInfo" target="_blank">
+                                    <div class="fbjs">
+                                        <div class="instLike">
+                                            <span></span>
+                                            <p></p>
+                                        </div>
+                                        <div class="instComm fbox">
+                                            <span></span>
+                                            <p></p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div id="its">
+                                <div class="instImg"></div>
+                                <a href="#" class="instImgInfo" target="_blank">
+                                    <div class="fbjs">
+                                        <div class="instLike">
+                                            <span></span>
+                                            <p></p>
+                                        </div>
+                                        <div class="instComm fbox">
+                                            <span></span>
+                                            <p></p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+
+
                         </div>
-                    </a>
+                    </div>
                 </div>
-
-                <div>
-                    <div class="instImg"></div>
-                    <a href="#" class="instImgInfo" target="_blank">
-                        <div>
-                            <div class="instLike">
-                                <span></span>
-                                <p></p>
-                            </div>
-                            <div class="instComm fbox">
-                                <span></span>
-                                <p></p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-                <div>
-                    <div class="instImg"></div>
-                    <a href="#" class="instImgInfo" target="_blank">
-                        <div class="fbjs">
-                            <div class="instLike">
-                                <span></span>
-                                <p></p>
-                            </div>
-                            <div class="instComm fbox">
-                                <span></span>
-                                <p></p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-                <div>
-                    <div class="instImg"></div>
-                    <a href="#" class="instImgInfo" target="_blank">
-                        <div class="fbjs">
-                            <div class="instLike">
-                                <span></span>
-                                <p></p>
-                            </div>
-                            <div class="instComm fbox">
-                                <span></span>
-                                <p></p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-                <div>
-                    <div class="instImg"></div>
-                    <a href="#" class="instImgInfo" target="_blank">
-                        <div class="fbjs">
-                            <div class="instLike">
-                                <span></span>
-                                <p></p>
-                            </div>
-                            <div class="instComm fbox">
-                                <span></span>
-                                <p></p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-                <div>
-                    <div class="instImg"></div>
-                    <a href="#" class="instImgInfo" target="_blank">
-                        <div class="fbjs">
-                            <div class="instLike">
-                                <span></span>
-                                <p></p>
-                            </div>
-                            <div class="instComm fbox">
-                                <span></span>
-                                <p></p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-                <div>
-                    <div class="instImg"></div>
-                    <a href="#" class="instImgInfo" target="_blank">
-                        <div class="fbjs">
-                            <div class="instLike">
-                                <span></span>
-                                <p></p>
-                            </div>
-                            <div class="instComm fbox">
-                                <span></span>
-                                <p></p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
             </div>
+            <!-- Fim Instagram -->
         </div>
-        <!-- Fim Instagram -->
-
-
-        <!-- .container-fluid start -->
-
-        <!-- .container-fluid end -->
     </div>
 </div>
-
 
 <!-- .page-content.custom-img-background end -->
 
@@ -423,7 +419,7 @@ font-family: myriad !important;"> Instagram</i></p>
     /******************************** Instagram Script ********************************/
     if (document.querySelector('.instagram-wrapper')) {
 
-        const url = 'https://www.instagram.com/innovarseg/'; // the Instagram account
+        const url = 'https://www.instagram.com/uxresearchers/'; // the Instagram account
 
         const Http = new XMLHttpRequest();
         Http.open("GET", url);

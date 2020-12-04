@@ -25,7 +25,7 @@
                 <div class="redes">
                 <div class="col-md-6 col-sm-12">
                     <a href="#">
-                        <img id="flogo" style="max-width: 400px" src="/images/logo-footer.png" class="img-responsive" alt="Construction HTML Template"/>
+                        <img id="flogo" style="max-width: 280px" src="/images/logo_high_resolution_white.png" class="img-responsive" alt="Construction HTML Template"/>
                     </a>
 
                 </div>
@@ -80,7 +80,7 @@
         <div class="row">
             <!-- .col-md-6 start -->
             <div class="col-md-6 col-sm-6">
-                <p><strong>© InnovarSeg</strong> <?php echo  date('Y')?>. Todos os direitos reservados</p>
+                <p><strong>© Dados & Insights</strong> <?php echo  date('Y')?>. Todos os direitos reservados</p>
             </div><!-- .col-md-6 end -->
 
             <!-- .col-md-6 start -->

@@ -704,7 +704,7 @@ blockquote + p {
     color: #f7f7f7;
 }
 #top-bar-wrapper{
-    background-color: #242424;
+    background-color: #000000;
     padding: 10px 0 10px;
     width: 100%;
 
@@ -746,7 +746,7 @@ blockquote + p {
     margin-bottom: 0;
 }
 .page-title-1 {
-    background-image: url('/images/page-titles/camera.jpg');
+    background-image: url('/images/page-titles/blog-1.jpg');
 }
 .page-title.dark .custom-heading.style-1 h1{
     color: #fff;
@@ -801,7 +801,7 @@ blockquote + p {
     height: 410px;
 }
 .bkg-img2 {
-    background-image: url('/images/page-titles/camera.jpg');
+    background-image: url('/images/page-titles/blog-1.jpg');
     height: 300px !important;
 
 }
@@ -2809,8 +2809,8 @@ table tbody {
     border-top: 1px solid #ddd;
     min-height: 400px;
     position: relative;
-    /*background-color: #222222;*/
-    background-image: url("/images/footer.jpg");
+    background-color: #000;
+    /*background-image: url("/images/back.jpg");*/
 }
 #footer-wrapper .icon-container {
     width: 22px;
@@ -2996,7 +2996,7 @@ table tbody {
     top: 0px;
     width: 70%;
     height: 101%;
-    background: #242424 !important;
+    background: #000000 !important;
     -webkit-transform: skewX(-25deg);
     -ms-transform: skewX(-25deg);
     -o-transform: skewX(-25deg);
@@ -3146,6 +3146,11 @@ height: 35px !important;
     color: #333 !important;
 }
 
+@media screen and (min-width: 1590px){
+    #its {
+       display: none;
+    }
+}
 
 
 

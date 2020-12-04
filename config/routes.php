@@ -55,25 +55,13 @@ Router::scope('/', function (RouteBuilder $routes) {
         'httpOnly' => true
     ]));
 
-    /**
-     * Apply a middleware to the current route scope.
-     * Requires middleware to be registered via `Application::routes()` with `registerMiddleware()`
-     */
-    $routes->applyMiddleware('csrf');
 
-    /**
-     * Here, we are connecting '/' (base path) to a controller called 'Pages',
-     * its action called 'display', and we pass a param to select the view file
-     * to use (in this case, src/Template/Pages/home.ctp)...
-     */
+    $routes->applyMiddleware('csrf');
 
     $routes->connect('/', ['controller' => 'Pages', 'action' => 'site']);
     $routes->connect('/admin', ['controller' => 'Users', 'action' => 'login']);
-//    $routes->connect('/solucoes', ['controller' => 'Projects', 'action' => 'project']);
-//    $routes->connect('/servicos', ['controller' => 'Services', 'action' => 'service']);
     $routes->connect('/contato', ['controller' => 'Contacts', 'action' => 'contato']);
     $routes->connect('/video', ['controller' => 'Videos', 'action' => 'video']);
-//    $routes->connect('/fotos', ['controller' => 'Products', 'action' => 'product']);
     $routes->connect('/servicos', ['controller' => 'Portfolio', 'action' => 'portifolio']);
 
 

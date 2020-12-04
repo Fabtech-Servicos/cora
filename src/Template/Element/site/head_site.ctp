@@ -2,8 +2,8 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>InnovarSeg</title>
-    <link rel="icon" href="/images/2293icon.ico" sizes="192x192" />
+    <title><?= $this->fetch('title') ?> Dados & Insights</title>
+    <link rel="icon" href="/images/icone-cora.png" sizes="192x192" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Stylesheets -->

@@ -35,7 +35,7 @@
                                     </div>
                                     <div class="post-body">
                                         <a href="/post/<?= $post->id?>">
-                                            <p><?= strlen($post->description) >  90 ? substr($post->description, 0, 90) . "..." : $post->description ?></p>
+                                        <?= strlen($post->description) >  90 ? substr($post->description, 0, 90) . "..." : $post->description ?>
                                         </a>
                                     </div>
                                     <a href="/post/<?= $post->id?>"><small style="color: #333 !important;">Continue Lendo</small></a>

@@ -1,3 +1,18 @@
+<?php switch ($about->id){
+
+    case 5:
+        $this->assign('title', 'Oque fazemos - ');
+        break;
+
+    case 6: $this->assign('title', 'Como fazemos - ');
+        break;
+
+    case 7:  $this->assign('title', 'Benefícios - ');
+        break;
+
+}
+
+?>
 <div class="page-content custom-img-background dark page-title page-title-1 mb-70">
     <div class="container">
         <!-- .row start -->

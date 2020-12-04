@@ -30,7 +30,7 @@
             <div class="box-body">
               <?php
                 echo $this->Form->control('name');
-                echo $this->Form->control('description');
+//                echo $this->Form->control('description');
                 echo $this->Form->control('photo',['type' => 'file']);
 //                echo $this->Form->control('photo_dir');
               ?>

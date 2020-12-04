@@ -150,7 +150,7 @@ class BlogController extends AppController
 
     public function beforeFilter(Event $event)
     {
-        $this->Auth->allow(['blog','post']);
+        $this->Auth->allow(['blog','post','category']);
     }
 
 }
