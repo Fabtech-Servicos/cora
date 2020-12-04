@@ -40,7 +40,7 @@
                                 <span class="icon-container">
                                     <img src="/images/svg/email.svg" class="img-responsive" alt="email icon"/>
                                 </span>
-                        <a href="/contato"><strong>Email:</strong> contato@dadoseinsights.com.br</a>
+                        <a href="/contato"><strong>Email:</strong>contato@dadoseinsights.com.br</a>
                     </div>
                 </div><!-- .col-md-3 end -->
                 <!-- .col-md-3 start -->
@@ -65,7 +65,9 @@
             <div class="col-md-6 col-sm-6">
                 <ul class="breadcrumb">
                     <li><a href="/">Início</a></li>
-                    <li><a href="/sobre/5">Sobre</a></li>
+                    <li><a href="/sobre/5">O que fazemos</a></li>
+                    <li><a href="/sobre/6">Como fazemos</a></li>
+                    <li><a href="/sobre/7"> Benefícios</a></li>
                     <li><a href="/servicos">Serviços</a></li>
                     <li><a href="/contato">Contato</a></li>
                 </ul>

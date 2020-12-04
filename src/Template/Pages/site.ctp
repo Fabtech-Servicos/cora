@@ -69,7 +69,7 @@
 
             <div class="col-md-2 col-sm-2 col-xs-12 mb-0" id="solicitar" >
                 <p class="phones">
-                    <a href="tel:+5579999870060"><i class="rh rh-phone"> <img id="mg" style="height: 30px; float: left" src="/images/svg/telefone.svg" class="img-responsive" alt="tel icon"/></i> <small>(79)</small> 9987-0060</a>
+                    <a href="tel:+5579999870060"><i class="rh rh-phone"> <img id="mg" style="height: 30px; float: left" src="/images/svg/telefone.svg" class="img-responsive" alt="tel icon"/></i> <small>(79)</small> 99987-0060</a>
                 </p>
             </div>
 
@@ -82,7 +82,6 @@
                             Entre em Contato
                         </div>
                     </a>
-
 <!--                    <img src="/images/animation-black-white.gif">-->
                 </div>
             </div><!-- .col-md-3 end -->

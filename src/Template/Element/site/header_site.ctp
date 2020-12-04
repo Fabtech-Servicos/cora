@@ -10,29 +10,20 @@
                                         <span class="icon-container">
                                             <img src="/images/svg/email.svg" class="img-responsive" alt="email icon"/>
                                         </span>
-                                <a href="/contato"><strong>Email:</strong> contato@innovarseg.com.br</a>
+                                <a href="/contato"><strong>Email:</strong> contato@dadoseinsights.com.br</a>
                             </li>
-
-                            <li>
-                                <span class="icon-container">
-                                            <img style="" src="/images/svg/telefone.svg" class="img-responsive" alt="tel icon"/>
-                                        </span>
-                                <a href="tel:+557932491746"><strong>Telefone:</strong> (79) 3303-4653</a>
-                            </li>
-
                         <li>
                                 <span class="icon-container">
                                             <img style="" src="/images/svg/whats.png" class="img-responsive" alt="tel icon"/>
                                         </span>
-                            <a href="https://api.whatsapp.com/send?l=pt&amp;phone=5579996274624" target="_blank"><strong>Telefone:</strong> (79) 99627-4624</a>
+                            <a href="https://api.whatsapp.com/send?l=pt&amp;phone=5579996274624" target="_blank"><strong>Telefone:</strong> (79) 99987-0060</a>
                         </li>
                         </ul><!-- .quick links end -->
                     </div><!-- .col-md-10 end -->
                     <div class="col-md-2 col-sm-2 col-xs-1">
                         <!-- .social-links start -->
                         <ul class="social-links">
-                            <li><a href="https://www.facebook.com/innovarseg" target="_blank"><i  class="fa fa-facebook" style="color: #f7f7f7 !important;" ></i></a></li>
-                            <li><a  href="https://www.instagram.com/innovarseg/" target= _blank><i class="fa fa-instagram" style="color: #f7f7f7 !important;"></i></a></li>
+                            <li><a  href="#" target= _blank><i class="fa fa-instagram" style="color: #f7f7f7 !important;"></i></a></li>
                         </ul><!-- .social-links end -->
                     </div><!-- .col-md-2 end -->
                 </div><!-- .row end -->
