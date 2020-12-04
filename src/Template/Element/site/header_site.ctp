@@ -93,7 +93,7 @@
                                         </li>
 
                                         <li>
-                                            <a class="item-menu" href="/blog/blog">Blog</a>
+                                            <a class="item-menu" href="/blog">Blog</a>
                                         </li>
 
                                         <li>
