@@ -114,7 +114,7 @@
     </header><!-- .header --
  .header-wrapper.header-transparent end -->
 
-    <a href="https://api.whatsapp.com/send?l=pt&amp;phone=5579996274624" target="_blank">
+    <a href="https://api.whatsapp.com/send?l=pt&amp;phone=5579999870060" target="_blank">
         <img src="/images/whatsapp-button.png" style="height:80px; position:fixed; bottom: 10px;
      right: 10px; z-index:99999;width: 140px;height: auto; margin-bottom: 33px" data-selector="img"></a>
 <!--        </div>-->

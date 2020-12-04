@@ -7,12 +7,8 @@
         <div class="container">
             <div class="row" style="text-align:center;">
                 <div style="display:inline-block;">
-                    <h3 style="color:#FFF;font-size:16px;">Conheça a InnovarSeg</h3>
-                    <a style="margin-right:0.5rem; padding-top: 10px" target="_blank" href="https://www.facebook.com/innovarseg">
-                        <svg viewBox="0 0 32 32" width="32px" height="32px"><g fill="none" fill-rule="evenodd"><circle cx="16" cy="16" fill="#000000" r="16"></circle><image height="17.6" width="8" x="11.8" href="https://ph-cdn3.ecosweb.com.br/imagens01/pwa/assets/icons/ic-facebook.png" y="7.8"></image></g></svg>
-                    </a>
-
-                    <a style="margin-right:1rem;" target="_blank" href="https://www.instagram.com/innovarseg/">
+                    <h3 style="color:#FFF;font-size:16px;">Conheça a Dados & Insights</h3>
+                    <a style="margin-right:1rem;" target="_blank" href="#">
                         <svg viewBox="0 0 33 32" width="32px" height="32px"><g fill="none" fill-rule="evenodd" transform="translate(.333)"><circle cx="16" cy="16" fill="#000000" r="16"></circle><image height="19.2" width="19.2" x="6.4" href="https://ph-cdn3.ecosweb.com.br/imagens01/pwa/assets/icons/ic-instagram.png" y="6.4"></image></g></svg>
                     </a>
                 </div>
@@ -29,21 +25,13 @@
                     </a>
 
                 </div>
-                <!-- .col-md-3 end -->
-                <!-- .col-md-3 start -->
-                <div class="col-md-6 col-sm-12" id="link-2" style="margin-bottom: -22px;">
-                    <div class="footer-info">
-                   <span class="icon-container"><img  src="/images/svg/telefone.svg" class="img-responsive" alt="tel icon"/>
-                   </span><a href="tel:+557932491746"><strong>Telefone:</strong> (79) 3303-4653</a>
-                    </div>
-
-                </div><!-- .col-md-3 end -->
+                    <!-- .col-md-3 end -->
                 </div>
 
             <div class="col-md-6 col-sm-12" >
                     <div class="footer-info">
                    <span class="icon-container"><img style="" src="/images/svg/whats.png" class="img-responsive" alt="whats icon"/>
-                   </span><a href="https://api.whatsapp.com/send?l=pt&amp;phone=5579996274624" target="_blank"><strong>WhatsApp:</strong> (79) 99627-4624</a>
+                   </span><a href="https://api.whatsapp.com/send?l=pt&amp;phone=5579999870060" target="_blank"><strong>WhatsApp:</strong> (79) 99987-0060</a>
                     </div>
 
                 </div><!-- .col-md-3 end -->
@@ -52,17 +40,7 @@
                                 <span class="icon-container">
                                     <img src="/images/svg/email.svg" class="img-responsive" alt="email icon"/>
                                 </span>
-                        <a href="/contato"><strong>Email:</strong> contato@innovarseg.com.br</a>
-                    </div>
-                </div><!-- .col-md-3 end -->
-
-
-                <div class="col-md-6 col-sm-12" id="link" style="margin-left: 584px; margin-top: -22px;">
-                    <div class="footer-info">
-
-                        <a href="https://www.google.com/maps/place/InnovarSeg+Monitoramento+Compartilhado/@-10.8923892,-37.0553285,15z/data=!4m5!3m4!1s0x0:0x30132b25dea71dd7!8m2!3d-10.8923892!4d-37.0553285" target="_blank">  <span class="icon-container" >
-                                    <img  src="/images/svg/end.png" class="img-responsive" alt="endereco icon"/>
-                                </span><strong>Endereço:</strong>  R. Farmacêutico Marcos Ferreira de Jesus, 395 - Industrial, Aracaju - SE, 49065-370</a>
+                        <a href="/contato"><strong>Email:</strong> contato@dadoseinsights.com.br</a>
                     </div>
                 </div><!-- .col-md-3 end -->
                 <!-- .col-md-3 start -->
