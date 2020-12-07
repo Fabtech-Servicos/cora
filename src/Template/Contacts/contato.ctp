@@ -82,20 +82,20 @@
                     </li><!-- .widget-text end -->
                     <li class="widget widget-text">
                         <div class="title">
-                            <h2>InnovarSeg</h2>
+                            <h2>Dados & Insights</h2>
                         </div>
                         <ul>
                             <li class="strong-item" style="background-color: #222222 !important;">
                                         <span class="icon-container">
                                             <img src="/images/svg/email.svg" class="img-responsive" alt="email icon"/>
                                         </span>
-                                Email: contato@innovarseg.com.br
+                                Email: contato@dadoseinsights.com.br
                             </li>
                             <li class="strong-item" style="background-color: #222222 !important;">
                                         <span class="icon-container">
                                             <img  style="background-color: #000 !important;" src="/images/svg/telefone.svg" class="img-responsive" alt="email icon"/>
                                         </span>
-                                Telefone: (79) 3303-4653
+                                Telefone: (79) 99987-0060
                             </li>
                         </ul>
 

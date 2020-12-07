@@ -55,7 +55,7 @@
 <!-- .page-content solicitar serviço start -->
 <div class="page-content quote style-1 custom-background bkg-darkgrey dark mb-70 service">
     <!-- .container start -->
-    <div class="container">
+    <div class="container" id="cont">
         <!-- .row start -->
         <div class="row mb-0" style="margin-bottom: 20px !important; ">
             <!-- .col-md-9 start -->
@@ -210,7 +210,6 @@
                     class="fa moto-widget-theme-icon"></span><button id="bs" style="color:#f7f7f7 !important; width: fit-content; text-align: center; background: #0084ca" type="button" class="btn btn-secondary" data-dismiss="modal">
                     Ver Mais
                 </button></a>
-
     </div>
 <!--    end blog-->
 

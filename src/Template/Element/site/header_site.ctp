@@ -47,7 +47,7 @@
                                 <div class="navbar-header" style="padding-top: 15px">
                                     <div class="logo">
                                         <a href="/">
-                                            <img style="max-width: 265px" src="/images/logo.png" class="img-responsive"
+                                            <img id="lgr" style="max-width: 265px" src="/images/logo.png" class="img-responsive"
                                                  alt="Construction HTML Template"/>
                                         </a>
                                     </div><!-- .logo end -->

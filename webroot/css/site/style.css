@@ -3153,6 +3153,26 @@ height: 35px !important;
 }
 
 
+@media screen and (max-width: 767px){
+    #cont {
+        display: none !important;
+    }
+}
+
+
+
+
+@media screen and (max-width: 767px){
+    #lgr {
+       max-width: 215px !important;
+    }
+}
+
+
+
+
+
+
 
 
 
