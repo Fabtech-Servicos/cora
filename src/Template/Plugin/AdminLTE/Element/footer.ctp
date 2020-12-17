@@ -5,8 +5,7 @@
     <div class="pull-right hidden-xs">
       <b>Version</b> 2.4.5
     </div>
-    <strong>Copyright &copy; 2014-2016 <a href="https://adminlte.io">Almsaeed Studio</a>.</strong> All rights
-    reserved.
+    <strong>&copy; Dados & Insights <?= date('Y') ?>. </strong> Todos os direitos reservados.
   <?php if (isset($layout) && $layout == 'top'): ?>
   </div>
   <?php endif; ?>

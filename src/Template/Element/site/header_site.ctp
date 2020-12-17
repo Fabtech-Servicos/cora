@@ -84,7 +84,7 @@
                                         </li>
 
                                         <li>
-                                            <a class="item-menu" href="/blog">Blog</a>
+                                            <a class="item-menu" href="/posts">Blog</a>
                                         </li>
 
                                         <li>

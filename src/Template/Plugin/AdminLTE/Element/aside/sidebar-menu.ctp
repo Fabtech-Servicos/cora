@@ -32,7 +32,25 @@
     <li>
         <a href="<?php echo $this->Url->build('/about/edit/5'); ?>">
             <i class="fa fa-circle-o" aria-hidden="true"></i>
-            <span>Sobre</span>
+            <span>Oque fazemos</span>
+            <span class="pull-right-container">
+      </span>
+        </a>
+    </li>
+
+    <li>
+        <a href="<?php echo $this->Url->build('/about/edit/6'); ?>">
+            <i class="fa fa-circle-o" aria-hidden="true"></i>
+            <span>Como fazemos</span>
+            <span class="pull-right-container">
+      </span>
+        </a>
+    </li>
+
+    <li>
+        <a href="<?php echo $this->Url->build('/about/edit/7'); ?>">
+            <i class="fa fa-circle-o" aria-hidden="true"></i>
+            <span>Benefícios</span>
             <span class="pull-right-container">
       </span>
         </a>
@@ -51,7 +69,25 @@
     <li>
         <a href="<?php echo $this->Url->build('/portfolio'); ?>">
             <i class="fa fa-circle-o" aria-hidden="true"></i>
-            <span>Soluções</span>
+            <span>Serviços</span>
+            <span class="pull-right-container">
+      </span>
+        </a>
+    </li>
+
+    <li>
+        <a href="<?php echo $this->Url->build('/categories'); ?>">
+            <i class="fa fa-circle-o" aria-hidden="true"></i>
+            <span>Categorias Blog</span>
+            <span class="pull-right-container">
+      </span>
+        </a>
+    </li>
+
+    <li>
+        <a href="<?php echo $this->Url->build('/blog'); ?>">
+            <i class="fa fa-circle-o" aria-hidden="true"></i>
+            <span>Blog</span>
             <span class="pull-right-container">
       </span>
         </a>
