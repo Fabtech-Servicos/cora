@@ -3169,6 +3169,18 @@ height: 35px !important;
 }
 
 
+@media screen and (max-width: 767px){
+    .bg-front {
+         width: -webkit-fill-available !important ;
+         /*width: -moz-available;*/
+        object-fit: none !important;
+        height: auto !important;
+    }
+}
+
+
+
+
 
 
 

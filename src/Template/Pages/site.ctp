@@ -184,9 +184,9 @@
                     <div class="feature-box style-2">
                         <div class="feature-body" style="background: #fff; color: #333">
                             <div class="t">
-                                <img class="bg-all2"  style=" width: 360px !important; height: 224px !important;
-                                        object-fit: cover !important;" src="<?= "/files/Blog/photo/" . $post->photo ?>">
-                                <!--                            -moz-available firefox-->
+                                <img class="bg-front"  style=" width: 360px; height: 224px;
+                                        object-fit: cover;" src="<?= "/files/Blog/photo/" . $post->photo ?>">
+                                <!--     -moz-available firefox-->
                             </div>
                             <div class="post-name">
                                 <h4 style="color: #333"><?= $post->title ?></h4>

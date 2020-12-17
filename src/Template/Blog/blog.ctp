@@ -24,7 +24,7 @@
                             <div class="feature-box style-2">
                                 <div class="feature-body" style="background: #fff; color: #333">
                                     <a href="/post/<?= $post->id?>"><div class="t">
-                                   <img class="bg-all2"  style=" width: 252px !important; height: 157px !important;
+                                   <img class="bg-front"  style=" width: 252px; height: 157px;
                                         object-fit: cover !important;" src="<?= "/files/Blog/photo/" . $post->photo ?>">
                                         <!--                            -moz-available firefox-->
                                     </div></a>
