@@ -95,7 +95,7 @@
                                         <span class="icon-container">
                                             <img  style="background-color: #000 !important;" src="/images/svg/telefone.svg" class="img-responsive" alt="email icon"/>
                                         </span>
-                                Telefone: (79) 99987-0060
+                                Telefone: (79) 99896-7722
                             </li>
                         </ul>
 

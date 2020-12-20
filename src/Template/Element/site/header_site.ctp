@@ -16,7 +16,7 @@
                                 <span class="icon-container">
                                             <img style="" src="/images/svg/whats.png" class="img-responsive" alt="tel icon"/>
                                         </span>
-                            <a href="https://api.whatsapp.com/send?l=pt&amp;phone=5579996274624" target="_blank"><strong>Telefone:</strong> (79) 99987-0060</a>
+                            <a href="https://api.whatsapp.com/send?l=pt&amp;phone=5579998967722" target="_blank"><strong>Telefone:</strong> (79) 99896-7722</a>
                         </li>
                         </ul><!-- .quick links end -->
                     </div><!-- .col-md-10 end -->
@@ -105,7 +105,7 @@
     </header><!-- .header --
  .header-wrapper.header-transparent end -->
 
-    <a href="https://api.whatsapp.com/send?l=pt&amp;phone=5579999870060" target="_blank">
+    <a href="https://api.whatsapp.com/send?l=pt&amp;phone=5579998967722" target="_blank">
         <img src="/images/whatsapp-button.png" style="height:80px; position:fixed; bottom: 10px;
      right: 10px; z-index:99999;width: 140px;height: auto; margin-bottom: 33px" data-selector="img"></a>
 <!--        </div>-->

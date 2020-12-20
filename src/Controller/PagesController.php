@@ -87,7 +87,6 @@ class PagesController extends AppController
 
 
 
-
         $sliders = $this->Sliders->find('all');
         $servic = $this->Portfolio->find('all', array('limit' => 3))->order(['id' => 'desc']);
         $servico = $this->Portfolio->find('all');
@@ -138,6 +137,7 @@ class PagesController extends AppController
 
 
     }
+
 
 
     public function beforeFilter(Event $event)

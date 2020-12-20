@@ -69,7 +69,7 @@
 
             <div class="col-md-2 col-sm-2 col-xs-12 mb-0" id="solicitar" >
                 <p class="phones">
-                    <a href="tel:+5579999870060"><i class="rh rh-phone"> <img id="mg" style="height: 30px; float: left" src="/images/svg/telefone.svg" class="img-responsive" alt="tel icon"/></i> <small>(79)</small> 99987-0060</a>
+                    <a href="tel:+5579998967722"><i class="rh rh-phone"> <img id="mg" style="height: 30px; float: left" src="/images/svg/telefone.svg" class="img-responsive" alt="tel icon"/></i> <small>(79)</small> 99896-7722</a>
                 </p>
             </div>
 
@@ -400,35 +400,31 @@
 <?php $this->start('script-footer') ?>
 
 <script>
+    window.onload = function () {
+        let width = screen.width;
 
+        let height = screen.height;
 
-    /******************************** start altera classe menu Script ********************************/
+        if (width <= 800 || height <= 600) {
+            document.getElementById("insta-right").click();
+            document.getElementById("insta-right").click();
+            document.getElementById("insta-right").click();
+        }
+    }
 
-
-
-
-    /******************************** end altera classe menu Script ********************************/
-
-
-
-    /******************************** Instagram Script ********************************/
-
-
-    /******************************** Instagram Script ********************************/
     if (document.querySelector('.instagram-wrapper')) {
 
-        const url = 'https://www.instagram.com/uxresearchers/'; // the Instagram account
+        const url = '/instagram';
 
         const Http = new XMLHttpRequest();
         Http.open("GET", url);
         Http.send();
         setTimeout(function () {
             if (Http.responseText) {
-                var instTextObj = Http.responseText.match(/<script type="text\/javascript">window\._sharedData = (.*)<\/script>/)[0].slice(52, -10);
-                var instJSON = JSON.parse(instTextObj);
-                var instItemsJSON = instJSON['entry_data']['ProfilePage'][0]['graphql']['user']['edge_owner_to_timeline_media']['edges'];
-                var instagramDivs = document.querySelectorAll('.instagram-photos > div');
-                for (var ins = 0; ins < instagramDivs.length; ins++) {
+                let instJSON = JSON.parse(Http.responseText);
+                let instItemsJSON = instJSON['graphql']['user']['edge_owner_to_timeline_media']['edges'];
+                let instagramDivs = document.querySelectorAll('.instagram-photos > div');
+                for (let ins = 0; ins < instagramDivs.length; ins++) {
                     instagramDivs[ins].querySelector('.instImg').style.backgroundImage = "url('" + instItemsJSON[ins]['node']['display_url'] + "')";
                     instagramDivs[ins].querySelector('a').href = "https://www.instagram.com/p/" + instItemsJSON[ins]['node']['shortcode'];
                     instagramDivs[ins].querySelector('.instLike p').innerText = instItemsJSON[ins]['node']['edge_liked_by']['count'];
@@ -441,28 +437,24 @@
         }, 2500);
     }
 
-    // if (window.innerWidth < 992) {
-    //   document.querySelector('.instagram-wrapper').classList.add('InstaSlideEfx');
-    // }
-
-    var positionInstaSlide = 0;
+    let positionInstaSlide = 0;
 
     function slideInsta(direction) {
-        if (direction == 'left' && positionInstaSlide != -3) {
+        if (direction === 'left' && positionInstaSlide !== -2) {
             positionInstaSlide--;
             changeInstaPos();
-        } else if (direction == 'right' && positionInstaSlide != 3) {
+        } else if (direction === 'right' && positionInstaSlide !== 2) {
             positionInstaSlide++;
             changeInstaPos();
         }
 
         function changeInstaPos() {
-            document.querySelector(".instagram-photos").style.transform = "translate(" + ((positionInstaSlide * 282)) + "px)";
+            document.querySelector(".instagram-photos").style.transform = "translate(" + ((positionInstaSlide * 202)) + "px)";
         }
 
-        if (positionInstaSlide == -3) {
+        if (positionInstaSlide === -2) {
             document.querySelector('.instagramArrows span:nth-of-type(2)').style.opacity = "0";
-        } else if (positionInstaSlide == 3) {
+        } else if (positionInstaSlide === 2) {
             document.querySelector('.instagramArrows span:nth-of-type(1)').style.opacity = "0";
         } else {
             document.querySelector('.instagramArrows span:nth-of-type(1)').style.opacity = "1";
@@ -475,13 +467,13 @@
     document.querySelector('.instagram-photos').addEventListener("touchmove", moveTouch, false);
 
     // Swipe Up / Down / Left / Right
-    var initialX = null;
-    var initialY = null;
+    let initialX = null;
+    let initialY = null;
 
     function startTouch(e) {
         initialX = e.touches[0].clientX;
         initialY = e.touches[0].clientY;
-    };
+    }
 
     function moveTouch(e) {
         if (initialX === null) {
@@ -491,11 +483,11 @@
             return;
         }
 
-        var currentX = e.touches[0].clientX;
-        var currentY = e.touches[0].clientY;
+        let currentX = e.touches[0].clientX;
+        let currentY = e.touches[0].clientY;
 
-        var diffX = initialX - currentX;
-        var diffY = initialY - currentY;
+        let diffX = initialX - currentX;
+        let diffY = initialY - currentY;
 
         if (Math.abs(diffX) > Math.abs(diffY)) {
             // sliding horizontally
@@ -519,7 +511,7 @@
         initialY = null;
 
         e.preventDefault();
-    };
+     };
 
     /******************************** Fim - Instagram Script ********************************/
 
