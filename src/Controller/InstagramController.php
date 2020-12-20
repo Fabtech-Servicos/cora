@@ -12,7 +12,7 @@ class InstagramController extends Controller
 
         $this->response = $this->response->withType('json');
         $this->response = $this->response->withStringBody(
-            file_get_contents("https://www.instagram.com/tortellideli/?__a=1")
+            file_get_contents("https://www.instagram.com/fabtech_/?__a=1")
         );
     }
 }
