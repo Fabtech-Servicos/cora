@@ -207,7 +207,7 @@ body {
     background-color: #fff;
 }
 .row {
-    margin-bottom: 70px;
+    /*margin-bottom: 70px;*/
 }
 .row-equal-height {
     display: table;
@@ -3178,6 +3178,12 @@ height: 35px !important;
     }
 }
 
+
+@media screen and (max-width: 767px){
+    .text-single{
+        margin-bottom: -28px;
+    }
+}
 
 
 

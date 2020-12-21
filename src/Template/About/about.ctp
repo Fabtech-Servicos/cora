@@ -13,7 +13,7 @@
 }
 
 ?>
-<div class="page-content custom-img-background dark page-title page-title-1 mb-70">
+<div class="page-content custom-img-background dark page-title page-title-1 mb-0">
     <div class="container">
         <!-- .row start -->
         <div class="row">
@@ -29,7 +29,7 @@
 
 <div class="page-content">
     <div class="container">
-        <div class="row">
+        <div class="row text-single">
             <div class="col-md-12 col-sm-12">
                 <div class="feature-box style-2">
                     <div class="feature-body">

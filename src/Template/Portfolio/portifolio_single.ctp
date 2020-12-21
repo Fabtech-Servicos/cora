@@ -18,23 +18,13 @@
 
 <div class="page-content">
     <div class="container">
-        <div class="row">
-            <div class="col-md-12 col-sm-12">
-
-            </div>
-
+        <div class="row text-single">
             <!-- .col-md-6 end -->
             <div class="col-md-8 col-sm-12">
                 <div class="custom-heading style-1">
-
                     <h2><?php echo $portifolioSingle->title ?></h2>
-
                 </div>
-
-
-                <p><?php echo $portifolioSingle->description ?>  </p>
-
-
+                <?php echo $portifolioSingle->description ?>
                 <img onclick="vollar()" src="/images/back.png" style="max-width: 30px; cursor:pointer;">
 
             </div><!-- .col-md-6 end -->
