@@ -1,4 +1,4 @@
-``{
+{
     "name": "cakephp/app",
     "description": "CakePHP skeleton app",
     "homepage": "https://cakephp.org",
@@ -10,9 +10,12 @@
         "cakephp/migrations": "^2.0.0",
         "cakephp/plugin-installer": "^1.0",
         "google/recaptcha": "^1.2",
+        "guzzlehttp/guzzle": "^7.2",
         "josegonzalez/cakephp-upload": "^4.0",
         "maiconpinto/cakephp-adminlte-theme": "^1.1",
-        "mobiledetect/mobiledetectlib": "2.*"
+        "mobiledetect/mobiledetectlib": "2.*",
+        "phpfastcache/phpfastcache": "^8.0",
+        "raiym/instagram-php-scraper": "^0.10.0"
     },
     "require-dev": {
         "cakephp/bake": "^1.9.0",
@@ -54,4 +57,3 @@
         "sort-packages": true
     }
 }
-``
