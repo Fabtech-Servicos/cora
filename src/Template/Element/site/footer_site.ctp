@@ -31,7 +31,7 @@
             <div class="col-md-6 col-sm-12" >
                     <div class="footer-info">
                    <span class="icon-container"><img style="" src="/images/svg/whats.png" class="img-responsive" alt="whats icon"/>
-                   </span><a href="https://api.whatsapp.com/send?l=pt&amp;phone=5579998967722" target="_blank"><strong>WhatsApp:</strong> (79) 99987-0060</a>
+                   </span><a href="https://api.whatsapp.com/send?l=pt&amp;phone=5579998967722" target="_blank"><strong>WhatsApp:</strong> (79) 99896-7722</a>
                     </div>
 
                 </div><!-- .col-md-3 end -->
