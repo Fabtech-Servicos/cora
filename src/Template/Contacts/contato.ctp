@@ -1,5 +1,5 @@
 <?php $this->assign('title', 'Contato - '); ?>
-<div class="page-content custom-img-background dark page-title page-title-1 mb-0">
+<div class="page-content custom-img-background dark page-title page-title-1 mb-20">
     <div class="container">
         <!-- .row start -->
         <div class="row">
@@ -18,7 +18,7 @@
 '<div class="page-content">
     <div class="container">
         <div class="row">
-            <div class="col-md-8 col-xs-12">'
+            <div class="col-md-8 col-xs-12">
                 <div class="custom-heading">
                     <h2>Fale Conosco</h2>
                 </div><!-- .custom-heading end -->
@@ -58,7 +58,7 @@
                 </div><!-- .comment-form end -->
             </div><!-- .col-md-8 end -->
 
-            <aside class="col-md-4 col-xs-12 aside">
+            <aside class="col-md-4 col-xs-12 aside fffte">
                 <ul class="aside-widgets">
 
                     <!-- .widget.widget-text start -->

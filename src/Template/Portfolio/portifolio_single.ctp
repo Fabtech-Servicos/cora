@@ -1,5 +1,5 @@
 <!-- .page-content start -->
-<div class="page-content custom-img-background dark page-title page-title-1 mb-70">
+<div class="page-content custom-img-background dark page-title page-title-1 mb-20">
     <div class="container">
         <!-- .row start -->
         <div class="row">
