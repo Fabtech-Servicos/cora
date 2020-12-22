@@ -416,25 +416,18 @@
 
         const url = '/instagram';
 
-        const Http = new XMLHttpRequest();
-        Http.open("GET", url);
-        Http.send();
-        setTimeout(function () {
-            if (Http.responseText) {
-                let instJSON = JSON.parse(Http.responseText);
-                let instItemsJSON = instJSON['graphql']['user']['edge_owner_to_timeline_media']['edges'];
-                let instagramDivs = document.querySelectorAll('.instagram-photos > div');
-                for (let ins = 0; ins < instagramDivs.length; ins++) {
-                    instagramDivs[ins].querySelector('.instImg').style.backgroundImage = "url('" + instItemsJSON[ins]['node']['display_url'] + "')";
-                    instagramDivs[ins].querySelector('a').href = "https://www.instagram.com/p/" + instItemsJSON[ins]['node']['shortcode'];
-                    instagramDivs[ins].querySelector('.instLike p').innerText = instItemsJSON[ins]['node']['edge_liked_by']['count'];
-                    instagramDivs[ins].querySelector('.instComm p').innerText = instItemsJSON[ins]['node']['edge_media_to_comment']['count'];
-                }
-            } else {
-                document.querySelector('.instagram-wrapper').style.display = 'none';
+        $.getJSON('/instagram', [], function (instJSON) {
+            let instItemsJSON = instJSON['graphql']['user']['edge_owner_to_timeline_media']['edges'];
+            let instagramDivs = document.querySelectorAll('.instagram-photos > div');
+            for (let ins = 0; ins < instagramDivs.length; ins++) {
+                instagramDivs[ins].querySelector('.instImg').style.backgroundImage = "url('" + instItemsJSON[ins]['node']['display_url'] + "')";
+                instagramDivs[ins].querySelector('a').href = "https://www.instagram.com/p/" + instItemsJSON[ins]['node']['shortcode'];
+                instagramDivs[ins].querySelector('.instLike p').innerText = instItemsJSON[ins]['node']['edge_liked_by']['count'];
+                instagramDivs[ins].querySelector('.instComm p').innerText = instItemsJSON[ins]['node']['edge_media_to_comment']['count'];
             }
-
-        }, 2500);
+        }).fail(function() {
+            document.querySelector('.instagram-wrapper').style.display = 'none';
+        });
     }
 
     let positionInstaSlide = 0;

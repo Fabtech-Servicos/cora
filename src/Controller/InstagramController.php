@@ -17,13 +17,10 @@ class InstagramController extends Controller
         $instagram->login();
         $instagram->saveSession();
 
-        $media = $instagram->getMediaByUrl('https://www.instagram.com/p/BHaRdodBouH');
-
-        var_dump($media); exit;
-
+        $media = $instagram->getByUrl('https://www.instagram.com/fabtech_');
 
         $this->response = $this->response->withStringBody(
-            file_get_contents("https://www.instagram.com/fabtech_/?__a=1")
+            $media->raw_body
         );
     }
 }
