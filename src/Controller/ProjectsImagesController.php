@@ -103,6 +103,7 @@ class ProjectsImagesController extends AppController
      */
     public function delete($id = null)
     {
+
         $this->request->allowMethod(['post', 'delete']);
         $projectsImage = $this->ProjectsImages->get($id);
         if ($this->ProjectsImages->delete($projectsImage)) {

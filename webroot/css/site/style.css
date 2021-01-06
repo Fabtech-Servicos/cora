@@ -3193,6 +3193,14 @@ height: 35px !important;
 }
 
 
+@media screen and (max-width: 414px){
+    #posicao {
+        margin-top: -379px !important;
+    }
+}
+
+
+
 
 
 
